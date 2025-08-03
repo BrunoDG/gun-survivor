@@ -13,7 +13,6 @@ unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
 
 [node name="gun_model" parent="Camera3D" instance=ExtResource("1_oul6g")]
-unique_name_in_owner = true
 transform = Transform3D(-0.3, 2.62268e-08, 0, 2.62268e-08, 0.3, 2.62268e-08, 2.29282e-15, 2.62268e-08, -0.3, 0.32, -0.15, -0.4)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
